@@ -1,0 +1,10 @@
+D:\Project\TimeSheetApp\TSDataAccessLayer\bin\Debug\TSDataAccessLayer.dll.config
+D:\Project\TimeSheetApp\TSDataAccessLayer\bin\Debug\TSDataAccessLayer.dll
+D:\Project\TimeSheetApp\TSDataAccessLayer\bin\Debug\TSDataAccessLayer.pdb
+D:\Project\TimeSheetApp\TSDataAccessLayer\bin\Debug\EntityFramework.dll
+D:\Project\TimeSheetApp\TSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\TimeSheetApp\TSDataAccessLayer\bin\Debug\EntityFramework.xml
+D:\Project\TimeSheetApp\TSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\TimeSheetApp\TSDataAccessLayer\obj\Debug\TSDataAccessLayer.csprojResolveAssemblyReference.cache
+D:\Project\TimeSheetApp\TSDataAccessLayer\obj\Debug\TSDataAccessLayer.dll
+D:\Project\TimeSheetApp\TSDataAccessLayer\obj\Debug\TSDataAccessLayer.pdb
