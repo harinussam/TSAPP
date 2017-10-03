@@ -6,9 +6,20 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="~/Content/Styles/font-awesome.css" rel="stylesheet" />
+
+    <link href="~/Content/Styles/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/Styles/StyleSheet1.css" rel="stylesheet" />
+    <link href="~/Content/Styles/StyleSheet2.css" rel="stylesheet" />
 </head>
 <body>
     <header>
+        <div>
+            <h4>Saggi Solutions</h4>
+        </div>
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title">
@@ -28,7 +39,9 @@
     </header>
     @RenderBody()
 
-    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jquery", "~/bundles/jqueryval")
+    @*~/bundles/jqueryval*@
     @RenderSection("scripts", required: false)
+    
 </body>
 </html>

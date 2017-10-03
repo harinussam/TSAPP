@@ -1,0 +1,381 @@
+﻿@{
+    ViewBag.Title = "Create";
+}
+
+@*<h2>Create</h2>
+<div class="ui-datepicker-current">
+    @DateTime.Now
+</div>
+<div class="form-group" width>
+    @Html.Label(".Net Developere", htmlAttributes: new { @class = "control-label col-md-2" })
+    <div class="col-md-10">
+        @Html.TextBox("text1")
+    </div>
+</div>*@
+@*<!DOCTYPE html>
+<html>*@
+@*<head>
+    <title>HTML</title>
+    <!-- internal style -->
+    <style>
+        body {
+            margin: 0;
+            background-color: #2f4f4e;
+        }
+
+        .main_container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .header {
+            background-color: #d9edf6;
+            display: table;
+            width: 100%;
+        }
+
+            .header ul {
+                list-style: none;
+                display: inline-block;
+                width: 100%;
+                padding-left: 0;
+            }
+
+                .header ul li {
+                    float: left;
+                    padding: 0 10px;
+                }
+
+        a {
+            text-decoration: none;
+        }
+
+        .header .header-left {
+            float: left;
+        }
+
+        .header .header-right {
+            float: right;
+        }
+
+        .content ul li {
+            float: left;
+            padding: 0 10px;
+        }
+
+        .content ul {
+            list-style: none;
+            display: inline-block;
+            width: 100%;
+            padding: 0;
+        }
+
+        .main_content {
+            display: table;
+            width: 100%;
+        }
+
+            .main_content .content1-left {
+                width: 50%;
+                display: table-cell;
+            }
+
+            .main_content .content1-right {
+                width: 50%;
+                display: table-cell;
+                text-align: right;
+            }
+
+        .content1-left {
+            padding: 0 10px;
+        }
+
+            .content1-left ul li {
+                list-style: none;
+            }
+
+            .content1-left ul li {
+                width: 100%;
+                height: 40%;
+            }
+
+        .content1-right ul {
+            list-style: none;
+            display: inline-block;
+            width: 100%;
+            padding: 0;
+        }
+
+            .content1-right ul li {
+                margin: 5px;
+                display: inline;
+            }
+
+        .Text-form {
+            display: table;
+            width: 100%;
+        }
+
+            .Text-form .text {
+                width: 50%;
+                display: table-cell;
+                vertical-align: middle;
+                padding: 0 10px;
+            }
+
+                .Text-form .text p {
+                    margin: 5px 0;
+                }
+
+            .Text-form .Text-box {
+                width: 50%;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+                .Text-form .Text-box input {
+                    width: 11%;
+                    padding: 2px;
+                    float: left;
+                    margin-right: 1.2%;
+                }
+        <!-- padding or margin: top right bottom left -->
+    </style>
+    <!-- internal style -->
+</head>
+<body>*@
+
+
+@*@section styles {
+    <link href="@Url.Content("~/Content/Styles/style.css")" rel="stylesheet" />
+}*@
+
+
+<div>
+
+    <div class="container">
+        <div class="header">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"><i class="fa fa-home fa-3" aria-hidden="true"></i></a></li>
+                        <li><a href="#">Timesheets</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Reports</a></li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#"><i class="fa fa-calendar fa-3" aria-hidden="true"></i></a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ravi <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">View account</a></li>
+                                    <li><a href="#">Others</a></li>
+                                    <li><a href="#">Log out</a></li>
+                                </ul>
+                        </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="banner">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Time</a></li>
+                <li><a href="#">Expenses</a></li>
+
+
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-left">
+                <h2>27 Feb-05 Mar 2017</h2>
+            </div>
+            <div class="content-right">
+                <div class="btn-toolbar" role="toolbar" style="margin: 0;">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default"><i class="fa fa-angle-left fa-2" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-default">This week</button>
+                        <button type="button" class="btn btn-default"><i class="fa fa-angle-right fa-2" aria-hidden="true"></i></button>
+
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default"><i class="fa fa-calendar-plus-o fa-1" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default">Day</button>
+                        <button type="button" class="btn btn-default">Week</button>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="content1">
+            <div class="content1-left"></div>
+            <div class="content1-right">
+                <table width="500" border="0">
+                    <tr>
+                        <th>M</th>
+                        <th>T</th>
+                        <th>W</th>
+                        <th>Th</th>
+                        <th>F</th>
+                        <th>S</th>
+                        <th>Su</th>
+                    </tr>
+                    <tr>
+                        <td>27 Feb</td>
+                        <td>28 Feb</td>
+                        <td>01 Mar</td>
+                        <td>02 Mar</td>
+                        <td>03 Mar</td>
+                        <td>04 Mar</td>
+                        <td>05 Mar</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-left">
+                [CFOPD-14-C-036B] DC 0CFO IT Support Services MITS Project
+                (eKuber ventures Inc)
+                <p>.Net Developer</p>
+            </div>
+            <div class="footer-right">
+                <table width="1000" border="0" id="tabledemo">
+                    <tr id="selectAll">
+                        <td>
+                            <input id="day1" size="3" width="50" name="days" minlength="2" class="day" type="text" required="" />
+
+                        <td>
+                            <input id="day2" type="text" name="days" class="day" size="3" width="50" required="" />
+                        <td>
+                            <input id="day3" type="text" name="days" class="day" size="3" width="50" required="" />
+                        </td>
+                        <td>
+                            <input id="day4" type="text" name="days" class="day" size="3" width="50" />
+                        </td>
+                        <td>
+                            <input id="day5" type="text" name="days" class="day" size="3" width="50" />
+                        </td>
+
+
+                        <td>
+                            <input id="day6" type="text" name="days" class="day" size="3" />
+                        </td>
+                        <td>
+                            <input id="day7" type="text" name="days" class="day" size="3" />
+                        </td>
+                        <td id="workingHours"></td>
+                        <td>
+                            <button><i class="fa fa-times fa-3" aria-hidden="true"></i></button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="footer1">
+            <div class="footer1-left">
+                <div class="btn-group1">
+                    <button type="button" class="btn btn-default"><i class="fa fa-plus fa-1" aria-hidden="true"></i>New Row</button>
+                    <button type="button" class="btn btn-default">Save</button>
+
+
+                </div>
+            </div>
+            <div class="footer1-right">
+                <table width="600" border="0" id="calendar">
+                    <tbody>
+                        <tr>
+
+                            <td width="35" id="footer_day1"></td>
+                            <td width="60" id="footer_day2"></td>
+                            <td width="60" id="footer_day3"></td>
+                            <td width="60" id="footer_day4"></td>
+                            <td width="60" id="footer_day5"></td>
+                            <td width="60" id="footer_day6"></td>
+                            <td width="60" id="footer_day7"></td>
+                            <td width="60" id="workingHours"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="btn-group2">
+                <input class="submit" type="submit" value="Submit">
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+@* Karthik code *@
+    @*<div class="main_container" style="background-color:#ddd">
+        <div class="header">
+            <div class="header-left">
+                <ul>
+                    <li><a href=""><img src="images/home.png" /></a></li>
+                    <li><a href="">Timesheets</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Reports</a></li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <ul>
+                    <li><a href="">Help</a></li>
+                    <li><a href=""><img src=""></a></li>
+                    <li>Name</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <ul>
+                <li>Time</li>
+                <li>Expenses</li>
+            </ul>
+        </div>
+
+        <div class="main_content" style="background-color:white">
+            <div class="content1-left">
+                <p>27 Feb - 05 Mar 2017</p>
+            </div>
+            <div class="content1-right">
+                <ul>
+                    <li>This week</li>
+                    <li><img src=""></li>
+                    <li>Day</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="Text-form">
+            <div class="text">
+                <p>Employee Project Name</p>
+                <p>Client Name</p>
+                <p>.net developer</p>
+            </div>
+            <div class="Text-box">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </div>
+        </div>
+    </div>*@
+    <h4>TimeSheet</h4>
+@*</body>
+</html>*@
+
