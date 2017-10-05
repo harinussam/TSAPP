@@ -28,3 +28,13 @@ D:\Project\Karthik TS on 09-23-2017\TimeSheetApp\TimeSheetApp\TSDataAccessLayer\
 D:\Project\Karthik TS on 09-23-2017\TimeSheetApp\TimeSheetApp\TSDataAccessLayer\obj\Debug\TSDataAccessLayer.csprojResolveAssemblyReference.cache
 D:\Project\Karthik TS on 09-23-2017\TimeSheetApp\TimeSheetApp\TSDataAccessLayer\obj\Debug\TSDataAccessLayer.dll
 D:\Project\Karthik TS on 09-23-2017\TimeSheetApp\TimeSheetApp\TSDataAccessLayer\obj\Debug\TSDataAccessLayer.pdb
+C:\Users\karthickk\Documents\GitHub\TSAPP\TimeSheetApp\TSDataAccessLayer\bin\Debug\TSDataAccessLayer.dll.config
+C:\Users\karthickk\Documents\GitHub\TSAPP\TimeSheetApp\TSDataAccessLayer\bin\Debug\TSDataAccessLayer.dll
+C:\Users\karthickk\Documents\GitHub\TSAPP\TimeSheetApp\TSDataAccessLayer\bin\Debug\TSDataAccessLayer.pdb
+C:\Users\karthickk\Documents\GitHub\TSAPP\TimeSheetApp\TSDataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\karthickk\Documents\GitHub\TSAPP\TimeSheetApp\TSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\karthickk\Documents\GitHub\TSAPP\TimeSheetApp\TSDataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\karthickk\Documents\GitHub\TSAPP\TimeSheetApp\TSDataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\karthickk\Documents\GitHub\TSAPP\TimeSheetApp\TSDataAccessLayer\obj\Debug\TSDataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\karthickk\Documents\GitHub\TSAPP\TimeSheetApp\TSDataAccessLayer\obj\Debug\TSDataAccessLayer.dll
+C:\Users\karthickk\Documents\GitHub\TSAPP\TimeSheetApp\TSDataAccessLayer\obj\Debug\TSDataAccessLayer.pdb
